@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #f3f3f3;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+}
+
+.react-pdf__Page__canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 950px) {
+  .react-pdf__Page__canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
